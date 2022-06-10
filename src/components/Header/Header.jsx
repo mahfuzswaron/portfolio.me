@@ -7,7 +7,7 @@ const about = <Link to={'/home/#about'} >ABOUT</Link>
 const resume = <Link to={'/home/resume'} >RESUME</Link>
 const Header = () => {
   return (
-    <div class="navbar bg-base-100">
+    <div class="navbar bg-white px-20">
       <div class="navbar-start">
         <div class="dropdown">
           <label tabindex="0" class="btn btn-ghost lg:hidden">
@@ -21,7 +21,8 @@ const Header = () => {
             <li>{resume}</li>
           </ul>
         </div>
-        <a class="btn btn-ghost normal-case text-xl">daisyUI</a>
+        <a class="btn btn-ghost normal-case  text-2xl">
+          <span className='text-primary'>{'< '}</span> {'Mahfuz'} <span className='text-primary'>{' />'}</span> </a>
       </div>
       <div class="navbar-center hidden lg:flex">
         <ul class="menu menu-horizontal p-0">
