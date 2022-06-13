@@ -7,7 +7,7 @@ const About = () => {
                 <img src="https://i.ibb.co/4tRZCmr/about.png" alt="about me" />
             </figure>
             <div className='w-1/2 px-5'>
-                <h3 className="text-primary text-4xl font-bold text-center">
+                <h3 className="hover:text-primary uppercase  text-4xl font-bold text-center">
                     About Me
                 </h3>
                 <p className='whitespace-pre-line  text-xl leading-relaxed  font-sans '>
