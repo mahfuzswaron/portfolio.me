@@ -1,0 +1,39 @@
+[
+{
+    "name": "Laptop Stock",
+    "img": "https://i.ibb.co/gP4X1m0/Laptop-Stock.png",
+    "id": "project#1",
+    "liveLink": "https://laptop-stock-new.web.app/",
+    "technologies": ["React", "React-Router", "Tailwind", "DaisyUI" ,"Firebase", "Heroku", "MOngoDB"],
+    "features": [
+        "See all inventories together",
+        "Manage Inventories (Add, Remove, Sale)",
+        "Total Price Calculator",
+        "Analytics of Sale",
+        "Blogs including some core concepts",
+        "Protected routes for logged in user only"
+    ]
+
+},
+{
+    "name": "Todo Manager",
+    "img": "https://i.ibb.co/VwBtWZL/WHAT-TO-DO.png",
+    "id": "project#2",
+    "liveLink": "https://react-to-do-app-41e4a.web.app/",
+    "technologies":["React", "React-Router", "Tailwind", "DaisyUI" ,"Firebase", "Heroku", "MOngoDB"],
+    "features": [
+        "See all Tasks",
+        "Manage Tasks (Add, Remove, Strikethrow)"
+    ]
+},
+{
+    "name": "JavaScript Watch",
+    "img": "https://i.ibb.co/sKsPzqs/digital-watch.png",
+    "id": "project#3",
+    "liveLink": "https://digital-watch-ms.netlify.app/",
+    "technologies": ["HTML", "CSS", "JavaScript"],
+    "features": [
+        "See time"
+    ]
+}
+]
