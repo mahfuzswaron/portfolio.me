@@ -4,6 +4,7 @@ const home = <Link to={'/home'} >HOME</Link>
 const projects = <Link to={'/projects'} >PROJECTS</Link>
 const contact = <Link to={'/contact'} >CONTACT</Link>
 const about = <Link to={'/about'} >ABOUT</Link>
+const blogs = <Link to={'/blogs'} >BLOGS</Link>
 const resume = <a download={'resume-mahfuzswaron'} href="../../../resume-mahfuzswaron.pdf">RESUME</a>
 const Header = () => {
   return (
@@ -18,6 +19,7 @@ const Header = () => {
             <li>{projects}</li>
             <li>{about}</li>
             <li>{contact}</li>
+            <li>{blogs}</li>
             <li>{resume}</li>
           </ul>
         </div>
@@ -30,6 +32,7 @@ const Header = () => {
           <li>{projects}</li>
           <li>{about}</li>
           <li>{contact}</li>
+          <li>{blogs}</li>
         </ul>
       </div>
       <div class="navbar-end">
