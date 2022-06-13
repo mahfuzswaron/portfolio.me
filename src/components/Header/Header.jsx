@@ -7,7 +7,7 @@ const about = <Link to={'/about'} >ABOUT</Link>
 const resume = <a download={'resume-mahfuzswaron'} href="../../../resume-mahfuzswaron.pdf">RESUME</a>
 const Header = () => {
   return (
-    <div class="navbar bg-white px-20">
+    <div class="navbar bg-white px-20 py-7">
       <div class="navbar-start">
         <div class="dropdown">
           <label tabindex="0" class="btn btn-ghost lg:hidden">

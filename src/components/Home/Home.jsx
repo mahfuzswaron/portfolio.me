@@ -1,6 +1,7 @@
 import React from 'react';
 import photo from '../../../images/profile-pic.jpg';
 import Projects from '../Projects/Projects';
+import ContactMe from '../ContactMe';
 const Home = () => {
     return (
         <div>
@@ -16,6 +17,7 @@ const Home = () => {
                 }
             </p>
             <Projects />
+            <ContactMe />
         </div>
     );
 };
