@@ -6,7 +6,7 @@ const Projects = () => {
     useEffect(() => {
         fetch('data.json').then(res => res.json()).then(data => setProjects(data))
     }, [projects]);
-    if (!projects || !projects?.length) return;
+    if (!projects | !projects?.length) return;
     return (
         <div className='px-20 my-10'>
             <h3 className='text-3xl text-semibold text-center uppercase mb-20'>Projects</h3>
