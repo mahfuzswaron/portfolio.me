@@ -4,7 +4,7 @@ const home = <Link to={'/home'} >HOME</Link>
 const projects = <Link to={'/projects'} >PROJECTS</Link>
 const contact = <Link to={'/contact'} >CONTACT</Link>
 const about = <Link to={'/about'} >ABOUT</Link>
-const resume = <Link to={'/resume'} >RESUME</Link>
+const resume = <a download={'resume-mahfuzswaron'} href="../../../resume-mahfuzswaron.pdf">RESUME</a>
 const Header = () => {
   return (
     <div class="navbar bg-white px-20">
