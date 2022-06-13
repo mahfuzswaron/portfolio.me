@@ -6,12 +6,12 @@ const ContactMe = () => {
         e.target.reset();
     }
     return (
-        <div className='mb-10 mt-44 px-20 flex'>
-            <div className='w-1/2 px-5'>
+        <div className='mb-10 lg:mt-44 mt-10 lg:px-20 px-5 lg:flex '>
+            <div className='lg:w-1/2 px-5 mb-10 lg:mb-0'>
                 <img src="https://i.ibb.co/LQ62C5k/contact.png" alt="contact me" />
             </div>
-            <div className='w-1/2 px-5'>
-                <h3 className="text-4xl text-center uppercase hover:text-primary font-bold mb-14">
+            <div className=' lg:w-1/2 px-5'>
+                <h3 className="text-2xl lg:text-4xl text-center uppercase hover:text-primary font-bold lg:mb-14 mb-8">
                     Contact Me
                 </h3>
                 <form onSubmit={handleSubmit} className=' mx-auto grid grid-cols-1 gap-3' action="mailto:mahfuzswaron@gmail.com" method="post" enctype="text/plain">
