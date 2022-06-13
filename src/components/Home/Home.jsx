@@ -1,5 +1,6 @@
 import React from 'react';
 import photo from '../../../images/profile-pic.jpg';
+import Projects from '../Projects/Projects';
 const Home = () => {
     return (
         <div>
@@ -14,6 +15,7 @@ const Home = () => {
                     `
                 }
             </p>
+            <Projects />
         </div>
     );
 };

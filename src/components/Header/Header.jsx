@@ -1,10 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 const home = <Link to={'/home'} >HOME</Link>
-const projects = <Link to={'/home/#projects'} >PROJECTS</Link>
-const contact = <Link to={'/home/#contact'} >CONTACT</Link>
-const about = <Link to={'/home/#about'} >ABOUT</Link>
-const resume = <Link to={'/home/resume'} >RESUME</Link>
+const projects = <Link to={'/projects'} >PROJECTS</Link>
+const contact = <Link to={'/contact'} >CONTACT</Link>
+const about = <Link to={'/about'} >ABOUT</Link>
+const resume = <Link to={'/resume'} >RESUME</Link>
 const Header = () => {
   return (
     <div class="navbar bg-white px-20">

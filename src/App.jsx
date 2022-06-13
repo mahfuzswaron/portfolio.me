@@ -2,15 +2,21 @@ import { useState } from 'react'
 import './App.css'
 import Header from './components/Header/Header'
 import Home from './components/Home/Home'
-import Projects from './components/Projects/Projects'
+import ProjectDetails from './components/Projects/ProjectDetails'
+import Projects from './components/Projects/Projects';
+import { Routes, Route } from 'react-router-dom';
 
 function App() {
 
   return (
     <div>
       <Header />
-      <Home></Home>
-      <Projects />
+      <Routes>
+        <Route path='/' element={<Home></Home>} ></Route>
+        <Route path='/home' element={<Home></Home>} ></Route>
+        <Route path='/projects' element={<Projects />} ></Route>
+        <Route path='projects/:id' element={<ProjectDetails></ProjectDetails>}></Route>
+      </Routes>
     </div>
   )
 }
