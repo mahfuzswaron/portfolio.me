@@ -4,7 +4,9 @@
     "img": "https://i.ibb.co/gP4X1m0/Laptop-Stock.png",
     "id": "project1",
     "liveLink": "https://laptop-stock-new.web.app/",
-    "technologies": ["React", "React-Router", "Tailwind", "DaisyUI" ,"Firebase", "Heroku", "MOngoDB"],
+    "githubClient": "https://github.com/mahfuzswaron/laptop-stock-react",
+    "description": "A warehouse mangement full-stack application. ",
+    "technologies": ["React", "React-Router", "Tailwind", "DaisyUI" ,"Firebase", "Heroku", "MongoDB"],
     "features": [
         "See all inventories together",
         "Manage Inventories (Add, Remove, Sale)",
@@ -20,7 +22,9 @@
     "img": "https://i.ibb.co/VwBtWZL/WHAT-TO-DO.png",
     "id": "project2",
     "liveLink": "https://react-to-do-app-41e4a.web.app/",
-    "technologies":["React", "React-Router", "Tailwind", "DaisyUI" ,"Firebase", "Heroku", "MOngoDB"],
+    "githubClient": "https://github.com/mahfuzswaron/react-to-do-app",
+    "description": "A Task mangement full-stack application. ",
+    "technologies":["React", "React-Router", "Tailwind", "DaisyUI" ,"Firebase", "Heroku", "MongoDB"],
     "features": [
         "See all Tasks",
         "Manage Tasks (Add, Remove, Strikethrow)"
@@ -31,9 +35,12 @@
     "img": "https://i.ibb.co/sKsPzqs/digital-watch.png",
     "id": "project3",
     "liveLink": "https://digital-watch-ms.netlify.app/",
+    "githubClient": "https://github.com/mahfuzswaron/digital-watch",
+    "description": "A simple JavaScript Watch ",
     "technologies": ["HTML", "CSS", "JavaScript"],
     "features": [
-        "See time"
+        "See time",
+        "Exactly your local time"
     ]
 }
 ]

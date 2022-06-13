@@ -11,7 +11,7 @@ const ProjectDetails = () => {
     }
 
     const project = projects.find(p => p.id === id);
-    const { name, img, technologies, features, liveLink } = project;
+    const { name, img, technologies, features, liveLink, description } = project;
 
     return (
         <div className='flex px-5'>
@@ -22,6 +22,11 @@ const ProjectDetails = () => {
             <div className='p-10 grid grid-cols-1 gap-3'>
                 <h1 className='text-4xl text-primary font-bold'>{name}</h1>
 
+                <div>
+                    <p className="text-xl font-sans">
+                        {description}
+                    </p>
+                </div>
                 <div>
                     <p className='text-2xl hover:text-primary font-semibold mb-3'>Main Features:</p>
                     <ul className='space-y-2'>
@@ -41,11 +46,18 @@ const ProjectDetails = () => {
                     </ul>
                 </div>
 
-                <button >
-                    <a className="btn btn-primary text-white w-full " target={'_blank'} href={liveLink}>
-                        Visit Site
-                    </a>
-                </button>
+                <div className="flex space-x-4">
+                    <button >
+                        <a className="btn btn-primary btn-outline " target={'_blank'} href={project.githubClient}>
+                            GitHub Repository
+                        </a>
+                    </button>
+                    <button >
+                        <a className="btn btn-primary text-white  " target={'_blank'} href={liveLink}>
+                            Visit Site
+                        </a>
+                    </button>
+                </div>
 
             </div>
         </div>
